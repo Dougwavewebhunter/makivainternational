@@ -215,7 +215,12 @@ const Mission = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {competitiveEdges.map((edge, index) => (
+              {[
+                { icon: Target, title: 'Precision Logistics', stat: '99.8%', description: 'Accuracy rate in order fulfillment and delivery' },
+                { icon: TrendingUp, title: 'Scalable Solutions', stat: '500%', description: 'Growth capacity to handle peak demands' },
+                { icon: Star, title: 'Client Satisfaction', stat: '98%', description: 'Client retention rate year over year' },
+                { icon: Award, title: 'Quality Assurance', stat: '100%', description: 'ISO compliance across all operations' }
+              ].map((edge, index) => (
                 <div key={index} className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-all duration-300 hover:scale-105">
                   <div className="bg-gradient-to-br from-blue-900 to-blue-700 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                     <edge.icon className="text-white" size={28} />

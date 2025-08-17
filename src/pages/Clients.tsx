@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Award, Users, TrendingUp } from 'lucide-react';
+import { Star, Award, Users, TrendingUp, Factory, Settings, Clock } from 'lucide-react';
 
 const Clients = () => {
   const testimonials = [

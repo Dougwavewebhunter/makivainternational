@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCart, Factory, Pill, Utensils, Globe, Building, Truck, Briefcase } from 'lucide-react';
+import { ShoppingCart, Factory, Pill, Utensils, Globe, Building, Truck, Briefcase, Settings, Clock } from 'lucide-react';
 
 const Industries = () => {
   const industries = [
